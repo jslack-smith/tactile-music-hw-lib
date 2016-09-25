@@ -537,10 +537,10 @@ package type TQ</description>
 <text x="-6.5278" y="-18.3134" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
 </symbol>
 <symbol name="MCP1824T-3302E/OT">
-<pin name="VIN" x="-17.78" y="2.54" length="middle" direction="pwr"/>
+<pin name="VIN" x="-17.78" y="2.54" length="middle"/>
 <pin name="~SHDN" x="-17.78" y="-2.54" length="middle" direction="in"/>
 <pin name="GND" x="-17.78" y="-7.62" length="middle" direction="pwr"/>
-<pin name="VOUT" x="17.78" y="2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="VOUT" x="17.78" y="2.54" length="middle" rot="R180"/>
 <pin name="PWRGD" x="17.78" y="0" length="middle" direction="out" rot="R180"/>
 <wire x1="-12.7" y1="7.62" x2="-12.7" y2="-12.7" width="0.4064" layer="94"/>
 <wire x1="-12.7" y1="-12.7" x2="12.7" y2="-12.7" width="0.4064" layer="94"/>
