@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="10" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -86,8 +86,8 @@
 <smd name="22" x="5.75" y="-1.25" dx="0.8" dy="2" layer="1" rot="R90"/>
 <smd name="23" x="5.75" y="-0.05" dx="0.8" dy="2" layer="1" rot="R90"/>
 <smd name="24" x="5.75" y="1.15" dx="0.8" dy="2" layer="1" rot="R90"/>
-<smd name="9A" x="-4.95" y="-8.75" dx="1" dy="1.4" layer="1" roundness="100"/>
-<smd name="16A" x="4.95" y="-8.75" dx="1" dy="1.4" layer="1" roundness="100"/>
+<smd name="9A" x="-4.95" y="-8.75" dx="1" dy="1" layer="1" roundness="100"/>
+<smd name="16A" x="4.95" y="-8.75" dx="1" dy="1" layer="1" roundness="100"/>
 <smd name="1A" x="-4.95" y="2.95" dx="1" dy="1.6" layer="1" roundness="100"/>
 <smd name="24A" x="4.95" y="2.95" dx="1" dy="1.6" layer="1" roundness="100"/>
 <smd name="9" x="-5.75" y="-9.75" dx="1.2" dy="1.2" layer="1" roundness="100"/>
